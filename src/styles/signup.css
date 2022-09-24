@@ -1,0 +1,30 @@
+.wave {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.svgg2 {
+  height: 500px;
+  margin-top: 21%;
+  float: right;
+}
+.svgg3 {
+  float: left;
+  width: 600px;
+  margin-top: 31.5%;
+  margin-left: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .svgg2 {
+    display: none;
+  }
+  .wave {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
